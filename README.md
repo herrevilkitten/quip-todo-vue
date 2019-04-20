@@ -1,5 +1,5 @@
 # quip-todo-vue
-This is a port of the [Quip jquery stub](https://github.com/quip/quip-apps/tree/master/examples/jquery-stub), using [VueJS](https://vuejs.org/).
+This is a version of th
 
 ## Installation
 ```
@@ -29,3 +29,5 @@ npm run build
 * With everything in Single File Components, `app.css` is not used (and is not in the manifest.)  If an external stylesheet is needed, the manifest may need to be updated.
 
 * I have only put in support for LESS processing, because it was already listed in `package-lock.json`.  Adding SASS (or other processors) shouldn't be that difficult.
+
+* You may run into CSP errors when loading the Live App inside of Quip.  I've done my best to clean up the problems.
