@@ -1,5 +1,5 @@
 # quip-todo-vue
-This is a version of th
+This is a version of the classic "To Do List" that is often used to compare different frameworks and such (for even more examples, see http://todomvc.com/).  This simple app lets you add items to a list, mark them as completed, and remove them.  It stores the item information using Quip Records.
 
 ## Installation
 ```
