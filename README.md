@@ -23,6 +23,14 @@ To build a deployable application, use the command
 npm run build
 ```
 
+## Screenshots
+
+![List with item](images/todo-screenshot-1.png)
+
+![List with completed item](images/todo-screenshot-2.png)
+
+![Live App scaling is supported](images/todo-screenshot-3.png)
+
 ## Caveats
 * `webpack.config.js` has been customized.  It uses the default Quip configuration and then modifies it somewhat.  This means that if Quip changes the defaults, this file may need to be updated.
 
