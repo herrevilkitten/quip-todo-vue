@@ -1,5 +1,9 @@
-# quip-todo-vue
+# Vue ToDo
 This is a version of the classic "To Do List" that is often used to compare different frameworks and such (for even more examples, see http://todomvc.com/).  This simple app lets you add items to a list, mark them as completed, and remove them.  It stores the item information using Quip Records.
+
+## Important Information
+
+Check out my [Getting Started Guide](https://github.com/herrevilkitten/quip-getting-started-vue) for detailed information on what changes are made and important caveats.
 
 ## Installation
 ```
@@ -30,12 +34,3 @@ npm run build
 ![List with completed item](images/todo-screenshot-2.png)
 
 ![Live App scaling is supported](images/todo-screenshot-3.png)
-
-## Caveats
-* `webpack.config.js` has been customized.  It uses the default Quip configuration and then modifies it somewhat.  This means that if Quip changes the defaults, this file may need to be updated.
-
-* With everything in Single File Components, `app.css` is not used (and is not in the manifest.)  If an external stylesheet is needed, the manifest may need to be updated.
-
-* I have only put in support for LESS processing, because it was already listed in `package-lock.json`.  Adding SASS (or other processors) shouldn't be that difficult.
-
-* You may run into CSP errors when loading the Live App inside of Quip.  I've done my best to clean up the problems.
